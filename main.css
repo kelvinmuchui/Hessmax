@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
 body {
     border-radius: 10px;
     display: block;
@@ -18,9 +19,9 @@ header{
     height: 70px;
     margin-left: 15%;
     margin-right: 15%;
-    background-image: url(bg-about.jpg);
+    background-image: url(pics/bg-about.jpg);
     align-content: right;
-    border-radius: 7px;
+    border-radius: 70px;
     
 }
 
@@ -51,6 +52,8 @@ margin-right: 10px;
 }
 h1{
     text-align: center;
+    font-family: 'Satisfy', cursive;
+    color:whitesmoke
 }
 h2
 {
@@ -75,4 +78,19 @@ i {
 small
 {
     padding: 10px
+}
+table{
+    background-color: burlywood;
+    width: 100%;
+    margin-top: 40px;
+    display: block;
+    border-spacing: 28px;
+    border: 28px;
+    border-radius: 5px;
+
+}
+td
+{
+    margin-left: 10px;
+    margin-right: 10px;
 }
