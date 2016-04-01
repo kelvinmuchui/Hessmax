@@ -52,7 +52,7 @@ color: gold;
 cursor: auto;
 margin-left: 10px;
 margin-right: 10px;
-    background-color: aqua;
+    background-color: black;
     border-radius: 7px;
 }
 #main{
@@ -85,26 +85,6 @@ h2
     border-radius: 8px;
     display: inline;
 }
-footer {
-    display: inline-block;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 20px;
-    background-image: url(bg-about.jpg);
-    text-align: center;
-    height: 40px;
-    border-radius: 5px;
-}
-i {
-    display: inline-block;
-    float: left;
-    padding: 10px;
-}
-small
-{
-    padding: 10px
-}
 table{
     background-color: burlywood;
     width: 100%;
@@ -119,4 +99,193 @@ td
 {
     margin-left: 10px;
     margin-right: 10px;
+}
+.about{
+    position: relative;
+    display: inline-block;
+}
+footer {
+    display: inline-block;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    background-image: url(pics/bg-about.jpg);
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+}
+i {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+}
+small
+{
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* Add Animation */
+
+
+@-webkit-keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0.1)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+
+/* Responsive Columns */
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+    .modal-content {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+/* Clear Floats */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}dding: 10px
+}
+
+
+/* The Image */
+div.img img {
+    width: 100%;
+    height:50%;
+    cursor: pointer;
+}
+
+/* Description of Image */
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Add Responsiveness */
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0.1)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Responsive Columns */
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+    .modal-content {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+/* Clear Floats */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
