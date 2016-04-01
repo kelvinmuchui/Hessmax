@@ -19,10 +19,24 @@ header{
     height: 70px;
     margin-left: 15%;
     margin-right: 15%;
-    background-image: url(pics/bg-about.jpg);
+    background-image: url(pics/head.png);
     align-content: right;
     border-radius: 70px;
     
+}
+.cd-scroll-down {
+  position: absolute;
+  left: 50%;
+  right: auto;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 20px;
+  width: 38px;
+  height: 44px;
+  background: url("pics/cd-arrow-bottom.svg") no-repeat center center;
 }
 
 #nav
@@ -34,10 +48,12 @@ header{
 }
 #nav a
 {
-color: azure;
+color: gold;
 cursor: auto;
 margin-left: 10px;
 margin-right: 10px;
+    background-color: aqua;
+    border-radius: 7px;
 }
 #main{
     display: block;
@@ -58,6 +74,16 @@ h1{
 h2
 {
     text-align: center;
+}
+.about{
+    background-color:aquamarine;
+}
+.img img{
+    
+    border: 2px solid;
+    width: 20%;
+    border-radius: 8px;
+    display: inline;
 }
 footer {
     display: inline-block;
