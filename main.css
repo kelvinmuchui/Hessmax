@@ -289,3 +289,6 @@ div.desc {
     display: table;
     clear: both;
 }
+.contact form{
+    align-self: center;
+}
